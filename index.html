@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <!-- <script src="https://kit.fontawesome.com/84730ab2ed.js" crossorigin="anonymous"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="contacts" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-4">
+            <i class="fa fa-envelope text-light mx-2"></i>
+            <a class="text-decoration-none bottom-menu-item" href="mailto:info@company.com"
+              >info@company.com</a
+            >
+            <i class="fa fa-phone text-light mx-2"></i>
+            <a class="text-decoration-none bottom-menu-item" href="tel:010-020-0340"
+              >010-020-0340</a
+            >
+          </div>
+          <div class="col-3 d-flex justify-content-end">
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="http://facebook.com/"
+              ><i class="fab fa-facebook-f fa-lg fa-fw"></i
+            ></a>
+
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="https://www.instagram.com/"
+              ><i class="fab fa-instagram fa-lg fa-fw"></i
+            ></a>
+
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="https://twitter.com/"
+              ><i class="fab fa-twitter fa-lg fa-fw"></i
+            ></a>
+
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="https://www.linkedin.com/"
+              ><i class="fab fa-linkedin fa-lg fa-fw"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="top-menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Troquei a linha abaixo por container pois o container-fluid é 100% em todas as telas -->
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand logo" href="#">Zay</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="col-1 d-flex position-relative">
+              <a
+                class="text-decoration-none nav-icon"
+                target="_blank"
+                href="http://facebook.com/"
+                ><i class="fa fa-fw fa-search text-dark mr-2"></i>
+              </a>
+              <a
+                class="text-decoration-none nav-icon"
+                target="_blank"
+                href="http://facebook.com/"
+                ><i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                <span class="nav-icon-number-indicator badge">7</span>
+              </a>
+              <a
+                class="text-decoration-none nav-icon"
+                target="_blank"
+                href="http://facebook.com/"
+                ><i class="fa fa-fw fa-user text-dark mr-3"></i>
+                <span class="nav-icon-number-indicator badge">+99</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section id="carrosel">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col d-flex flex-column justify-content-center">
+                  <h1 class="text-green"><b>Zay</b> eCommerce</h1>
+                  <h2 class="carousel-title">Tiny and Perfect eCommerce Template</h2>
+                  <p>
+                    Zay Shop is an eCommerce HTML5 CSS template with latest
+                    version of Bootstrap 5 (beta 1). This template is 100% free
+                    provided by <a href="#" class="text-green">TemplateMo</a> website. Image credits go to
+                    <a href="#" class="text-green">Freepik Stories</a>, <a href="#" class="text-green">Unsplash</a> and
+                    <a href="#" class="text-green">Icons 8</a>
+                  </p>
+                </div>
+                <div class="col">
+                  <img
+                    src="https://technext.github.io/zay-shop/assets/img/banner_img_01.jpg"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col d-flex flex-column justify-content-center">
+                    <h1 class="text-green"><b>Zay</b> eCommerce</h1>
+                    <h2 class="carousel-title">Tiny and Perfect eCommerce Template</h2>
+                    <p>
+                      Zay Shop is an eCommerce HTML5 CSS template with latest
+                      version of Bootstrap 5 (beta 1). This template is 100% free
+                      provided by <a href="#" class="text-green">TemplateMo</a> website. Image credits go to
+                      <a href="#" class="text-green">Freepik Stories</a>, <a href="#" class="text-green">Unsplash</a> and
+                      <a href="#" class="text-green">Icons 8</a>
+                    </p>
+                  </div>
+                <div class="col">
+                  <img
+                    src="https://technext.github.io/zay-shop/assets/img/banner_img_01.jpg"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="categorias" class="container p-5">
+      <div class="col-lg-6 m-auto text-center">
+        <h1>Categories of The Month</h1>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="row flex-row align-items-center justify-content-center">
+        <div class="col-10 col-md-4 p-5 d-flex flex-column align-items-center">
+          <img
+            src="https://technext.github.io/zay-shop/assets/img/category_img_01.jpg"
+            class="img-fluid border"
+            alt="relógio"
+          />
+          <h5 class="text-center">Watches</h5>
+          <a href="#" class="btn botao-shop"> Go Shop </a>
+        </div>
+        <div class="col-10 col-md-4 p-5 d-flex flex-column align-items-center">
+          <img
+            src="https://technext.github.io/zay-shop/assets/img/category_img_02.jpg"
+            class="img-fluid border"
+            alt="relógio"
+          />
+          <h5 class="text-center">Shoes</h5>
+          <a href="#" class="btn botao-shop"> Go Shop </a>
+        </div>
+        <div class="col-10 col-md-4 p-5 d-flex flex-column align-items-center">
+          <img
+            src="https://technext.github.io/zay-shop/assets/img/category_img_03.jpg"
+            class="img-fluid border"
+            alt="relógio"
+          />
+          <h5 class="text-center">Accessories</h5>
+          <a href="#" class="btn botao-shop"> Go Shop </a>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+    <section id="featured" class="p-5">
+      <div class="col-lg-6 m-auto text-center">
+        <h1>Featured Product</h1>
+        <p>
+          Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row flex-row align-items-center justify-content-center">
+          <div
+            class="col-10 col-md-4 p-2 d-flex flex-column align-items-center"
+          >
+            <img
+              src="https://technext.github.io/zay-shop/assets/img/feature_prod_01.jpg"
+              class="img-fluid border"
+              alt="lampada"
+            />
+            <div class="container descricao-produto">
+              <div class="d-flex flex-row justify-content-between pb-2">
+                <div>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-muted fa fa-star"></i>
+                  <i class="text-muted fa fa-star"></i>
+                </div>
+                <p class="review-item">$240.00</p>
+              </div>
+
+              <a href="#" class="h2 text-decoration-none text-dark"
+                >Gym Weight</a
+              >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                in culpa qui officia deserunt.
+              </p>
+              <p class="review-item">Review (24)</p>
+            </div>
+          </div>
+          <div
+            class="col-10 col-md-4 p-2 d-flex flex-column align-items-center"
+          >
+            <img
+              src="https://technext.github.io/zay-shop/assets/img/feature_prod_02.jpg"
+              class="img-fluid border"
+              alt="lampada"
+            />
+            <div class="container descricao-produto">
+              <div class="d-flex flex-row justify-content-between pb-2">
+                <div>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-muted fa fa-star"></i>
+                  <i class="text-muted fa fa-star"></i>
+                </div>
+                <p class="review-item">$240.00</>
+              </div>
+
+              <a href="#" class="h2 text-decoration-none text-dark"
+                >Cloud Nike Shoes</a
+              >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                in culpa qui officia deserunt.
+              </p>
+              <p class="review-item">Review (24)</p>
+            </div>
+          </div>
+          <div
+            class="col-10 col-md-4 p-2 d-flex flex-column align-items-center"
+          >
+            <img
+              src="https://technext.github.io/zay-shop/assets/img/feature_prod_03.jpg"
+              class="img-fluid border"
+              alt="lampada"
+            />
+            <div class="container descricao-produto">
+              <div class="d-flex flex-row justify-content-between pb-2">
+                <div>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+                  <i class="text-warning fa fa-star"></i>
+
+                </div>
+                <p class="review-item">$360.00</p>
+              </div>
+
+              <a href="#" class="h2 text-decoration-none text-dark"
+                >Summer Addides Shoes</a
+              >
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                in culpa qui officia deserunt.
+              </p>
+              <p class="review-item">Review (48)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bottom-menu">
+      <div class="container">
+        <div class="row d-flex flex-row justify-content-between pt-5">
+          <div class="col-md-4">
+            <h2 class="logo-menor">Zay Shop</h2>
+            <hr />
+            <ul>
+              <li class="">
+                <i class="fas fa-map-marker-alt fa-fw text-light"></i>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >123 Consectetur at lingula 10660</a
+                >
+              </li>
+              <li>
+                <i class="fa fa-phone fa-fw text-light"></i>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >010-020-0340</a
+                >
+              </li>
+              <li>
+                <i class="fa fa-envelope text-light mx-2"></i>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >info@company.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2 class="">Products</h2>
+            <hr />
+            <ul>
+              <li class="">
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Luxury</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Sport Wear</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Men's Shoes</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Women's Shoes</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Popular Dress</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Gym Acessories</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Sport Shoes</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2 class="">Further Info</h2>
+            <hr />
+            <ul>
+              <li class="">
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Luxury</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Sport Wear</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Men's Shoes</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Women's Shoes</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none bottom-menu-item" href="#"
+                  >Popular Dress</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="row d-flex justify-content-between">
+          <div class="col-3">
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="http://facebook.com/"
+              ><i class="fab fa-facebook-f fa-lg fa-fw"></i
+            ></a>
+
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="https://www.instagram.com/"
+              ><i class="fab fa-instagram fa-lg fa-fw"></i
+            ></a>
+
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="https://twitter.com/"
+              ><i class="fab fa-twitter fa-lg fa-fw"></i
+            ></a>
+
+            <a
+              class="text-light text-decoration-none"
+              target="_blank"
+              href="https://www.linkedin.com/"
+              ><i class="fab fa-linkedin fa-lg fa-fw"></i
+            ></a>
+          </div>
+          <div class="col-3 d-flex justify-content-end">
+            <div class="input-group mb-2">
+              <input
+                type="text"
+                class="form-control bg-dark border-light"
+                id="subscribeEmail"
+                placeholder="Email address"
+              />
+              <div class="input-group-text btn-success text-light">
+                Subscribe
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer" class="py-3 text-left d-flex align-items-middle">
+      <div class="container d-flex flex-row align-items-middle">
+        <p class="text-light">
+          Copyright © 2021 Company Name | Designed by TemplateMo
+        </p>
+      </div>
+    </section>
+
+    <!-- script para funcionar o js do bootstrap -->
+    <!-- <script src="https://use.fontawesome.com/d972a90cc5.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
